@@ -4,7 +4,7 @@ from openai import OpenAI
 from docx import Document
 from io import BytesIO, StringIO
 
-apiGroq = "YOU_KEY"
+apiGroq = st.secrets.get("apiGroq")
 # Configuración de claves API (NO RECOMENDADO almacenar claves en código en producción)
 client = OpenAI(base_url="https://api.groq.com/openai/v1", api_key=apiGroq)
 
