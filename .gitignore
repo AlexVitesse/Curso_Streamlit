@@ -1,0 +1,27 @@
+# Archivos de entornos virtuales
+venv/
+.venv/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Archivos de Jupyter Notebooks (si no quieres versionarlos)
+.ipynb_checkpoints/
+*.ipynb
+
+# Archivos específicos que no quieres subir
+mi_archivo_que_no_quiero_subir.txt
+temp/ # Ignora toda la carpeta 'temp'
+
+# Archivos de registro
+*.log
+
+# Archivos específicos de sistemas operativos
+.DS_Store # macOS
+Thumbs.db # Windows
+
+pokemon.csv
+readme.txt
+Sources/
